@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Banner = () => {
   return (
-    <div className="relative w-full h-[95vh] z-10 overflow-hidden bg-[url('https://img.freepik.com/free-vector/realistic-marijuana-leaf-background_23-2148770966.jpg?w=1800&t=st=1688262790~exp=1688263390~hmac=659ae7777b698eecd0743ccbe0037cc31ef2646fa5d8152e4805c605445f7dc5')] bg-cover bg-center">
+    <div className="relative w-full h-[95vh] z-10 overflow-hidden bg-[url('https://img.freepik.com/free-vector/realistic-marijuana-leaf-background_23-2148770966.jpg?w=1800&t=st=1688262790~exp=1688263390~hmac=659ae7777b698eecd0743ccbe0037cc31ef2646fa5d8152e4805c605445f7dc5')] bg-fixed bg-cover bg-center">
       <div className="absolute w-full h-full top-0 left-0 -z-20 bg-gray-900/50"></div>
       <div className="container max-w-7xl mx-auto flex flex-col justify-center items-center h-full px-4 md:px-8 space-y-8">
         <p className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold tracking-wide text-center">
