@@ -4,29 +4,24 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-import menuImage from "../../public/retail_3.png";
+import menuImage from "../../public/solution_2.png";
 
-const MenuTV = () => {
+const PromoTV = () => {
   return (
-    <div className="w-full h-full py-12 md:py-18 lg:py-20 bg-gray-100 shadow-md">
+    <div className="w-full h-full py-12 relative bg-gray-100/80 shadow-md">
+      <div className="absolute top-0 left-0 h-full w-full -z-10 bg-[url('https://img.freepik.com/free-vector/realistic-cannabis-leaf-background_52683-53039.jpg?w=2000&t=st=1688596820~exp=1688597420~hmac=5d7e8ad6ebaa8950ad665416ef0cc3ff5c56f1170736d4c36a35611c9c7bd0d8')] bg-cover bg-center" />
       <div className="container max-w-7xl mx-auto px-8 lg:px-0">
-        <h1 className="text-center font-Montserrat text-md md:text-lg lg:text-xl font-bold p-2">
-          Offering premium digital signage to cannabis retailers for over 7+
-          years.
+        <h1 className="font-Alata text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center font-extrabold p-4 tracking-wide text-gray-800">
+          Promo TVs
         </h1>
-        <h1 className="font-Alata text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center font-extrabold mt-12 p-4 tracking-wide text-gray-800">
-          Menu TVs
-        </h1>
-        <div className="mt-12 flex flex-row items-center space-x-8 p-4">
+        <div className="mt-12 flex flex-row-reverse items-center space-x-8 p-4">
           <div className=" w-2/5 flex flex-col justify-start space-y-6 p-4">
             <h1 className="text-3xl font-Alata font-extrabold text-gray-800">
-              Custom menu boards designed uniquely for your store.
+              Highlight specific products with eye-catching promotions.
             </h1>
             <p className="font-Raleway text-lg">
-              Take your sales to the next level with our custom designs and
-              configurations based on your sales strategy. Highlight your
-              cannabis product with ease, 100% automated with your POS in
-              real-time.
+              In-store TV channels inform and entertain your customers using
+              dynamic advertisements.
             </p>
             <motion.button
               whileHover={{ scale: 1.1 }}
@@ -46,4 +41,4 @@ const MenuTV = () => {
   );
 };
 
-export default MenuTV;
+export default PromoTV;
