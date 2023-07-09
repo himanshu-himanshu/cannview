@@ -4,26 +4,24 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-import menuImage from "../../public/solution_2.png";
+import menuImage from "../../public/retail_2.png";
 
-const PromoTV = () => {
+const TabletApp = () => {
   return (
-    <div className="w-full h-full py-12 relative bg-gray-100/70">
-      <div className="absolute top-0 left-0 w-full h-[25px] bg-gradient-to-b from-[#ffffff]"></div>
-      <div className="absolute bottom-0 left-0 w-full h-[300px] bg-gradient-to-t from-[#ffffff]"></div>
-      <div className="absolute top-0 left-0 h-full w-full -z-40 bg-[url('https://images.unsplash.com/photo-1614854262318-831574f15f1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center" />
+    <div className="w-full h-full py-12 md:py-18 lg:py-20 relative bg-[#ffffff]">
       <div className="container max-w-7xl mx-auto px-8 py-6 lg:px-0">
         <h1 className="font-Alata text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center font-extrabold p-4 tracking-wide text-gray-800">
-          Promo TVs
+          Tablet App
         </h1>
-        <div className="mt-12 flex flex-row-reverse items-center space-x-8 p-4">
+        <div className="mt-12 flex flex-row items-center space-x-8 p-4">
           <div className=" w-2/5 flex flex-col justify-start space-y-6 p-4">
             <h1 className="text-3xl font-Alata font-extrabold text-gray-800">
-              Highlight specific products with eye-catching promotions.
+              Budvue’s multi-purpose tablet app provides an interactive in-store
+              shopping experience.
             </h1>
             <p className="font-Raleway text-lg">
-              In-store TV channels inform and entertain your customers using
-              dynamic advertisements.
+              Automated in-depth menus and product details for your customer to
+              browse on their own or with a budtender.
             </p>
             <motion.button
               whileHover={{ scale: 1.1 }}
@@ -43,4 +41,4 @@ const PromoTV = () => {
   );
 };
 
-export default PromoTV;
+export default TabletApp;

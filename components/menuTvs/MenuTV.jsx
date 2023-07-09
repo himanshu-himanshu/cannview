@@ -8,7 +8,7 @@ import menuImage from "../../public/retail_3.png";
 
 const MenuTV = () => {
   return (
-    <div className="w-full h-full py-12 md:py-18 lg:py-20 bg-gray-100 shadow-md">
+    <div className="w-full h-full py-12 md:py-18 lg:py-20 bg-[#ffffff] shadow-lg">
       <div className="container max-w-7xl mx-auto px-8 lg:px-0">
         <h1 className="text-center font-Montserrat text-md md:text-lg lg:text-xl font-bold p-2">
           Offering premium digital signage to cannabis retailers for over 7+
