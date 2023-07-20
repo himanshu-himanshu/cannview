@@ -1,5 +1,6 @@
 import Banner from "@/components/banner/Banner";
 import ClickAndConnect from "@/components/clickConnect/ClickAndConnect";
+import Footer from "@/components/footer/Footer";
 import MenuTV from "@/components/menuTvs/MenuTV";
 import PrintMenu from "@/components/printMenu/PrintMenu";
 import PromoTV from "@/components/promoTvs/PromoTV";
@@ -14,6 +15,7 @@ export default function Home() {
       <TabletApp />
       <ClickAndConnect />
       <PrintMenu />
+      <Footer />
     </main>
   );
 }
