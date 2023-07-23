@@ -8,7 +8,7 @@ import { faFacebook } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   return (
     <div className="w-full">
-      <div className="bg-[#1B262C] py-12 px-6 flex flex-col w-full items-center space-y-12">
+      <div className="bg-[#191919] py-12 px-6 flex flex-col w-full items-center space-y-12">
         <h1 className="text-gray-100 text-2xl font-Montserrat font-light">
           Reach out to us to learn more.
         </h1>
@@ -26,7 +26,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faFacebook} />
         </div>
       </div>
-      <div className="bg-gray-900 py-6 px-6 flex flex-row justify-between text-gray-400 font-Raleway">
+      <div className="bg-[#191919] py-8 px-6 flex flex-row justify-between text-gray-400 font-Raleway border-t-[0.5px] border-gray-400">
         <div>
           <h1>All rights reserved @2023</h1>
         </div>
