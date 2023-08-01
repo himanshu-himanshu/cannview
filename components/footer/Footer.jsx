@@ -22,9 +22,6 @@ const Footer = () => {
             Contact Us
           </motion.button>
         </div>
-        <div>
-          <FontAwesomeIcon icon={faFacebook} />
-        </div>
       </div>
       <div className="bg-[#191919] py-8 px-6 flex flex-row justify-between text-gray-400 font-Raleway border-t-[0.5px] border-gray-400">
         <div>

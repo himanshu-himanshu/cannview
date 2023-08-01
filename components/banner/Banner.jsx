@@ -28,7 +28,7 @@ const Banner = () => {
           <a href="#" className="hover:text-gray-400 duration-150">
             Help
           </a>
-          <a href="#" className="hover:text-gray-400 duration-150">
+          <a href="/contact" className="hover:text-gray-400 duration-150">
             Contact
           </a>
         </div>
