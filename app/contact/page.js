@@ -23,7 +23,7 @@ const Contact = () => {
             <a href="#" className="hover:text-gray-400 duration-150">
               Integration
             </a>
-            <a href="#" className="hover:text-gray-400 duration-150">
+            <a href="/blog" className="hover:text-gray-400 duration-150">
               Blog
             </a>
             <a href="#" className="hover:text-gray-400 duration-150">
@@ -48,7 +48,7 @@ const Contact = () => {
       <div className="w-full h-full py-12 px-4 md:px-8">
         <div className="container max-w-6xl mx-auto ">
           <h1 className="text-6xl text-center font-Alata py-24 font-extrabold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent uppercase">
-            Let's Start A Conversation
+            Lets Start A Conversation
           </h1>
 
           <form action="#" className="py-6 px-4 flex flex-col space-y-4">
@@ -188,11 +188,11 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <div className="border-[1.5px] border-green-200 my-12 mx-12" />
-      <h1 className="text-center py-6 text-xl font-Raleway text-sky-500">
+      <div className="border-[1.5px] border-green-100/70 my-12 mx-12" />
+      <h1 className="text-center py-6 text-xl font-Raleway text-green-500">
         For weekend support please email: urgent@clickspace.com
       </h1>
-      <div className="border-[1.5px] border-green-200 my-12 mx-12" />
+      <div className="border-[1.5px] border-green-100/70 my-12 mx-12" />
       <div className="px-12 pb-12 text-center">
         <h1 className="text-4xl text-gray-600 p-6 font-Alata">Hours</h1>
         <p className="text-xl text-gray-600 p-6 font-Raleway">

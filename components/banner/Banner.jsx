@@ -22,7 +22,7 @@ const Banner = () => {
           <a href="#" className="hover:text-gray-400 duration-150">
             Integration
           </a>
-          <a href="#" className="hover:text-gray-400 duration-150">
+          <a href="/blog" className="hover:text-gray-400 duration-150">
             Blog
           </a>
           <a href="#" className="hover:text-gray-400 duration-150">
