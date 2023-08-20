@@ -13,14 +13,15 @@ const Footer = () => {
           Reach out to us to learn more.
         </h1>
         <div>
-          <motion.button
+          <motion.a
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             transition={{ duration: 0.2 }}
             className="bg-gray-100 px-6 py-3 text-[#06283D] rounded-sm shadow-md uppercase tracking-wide font-Alata"
+            href="/contact"
           >
             Contact Us
-          </motion.button>
+          </motion.a>
         </div>
       </div>
       <div className="bg-[#191919] py-8 px-6 flex flex-row justify-between text-gray-400 font-Raleway border-t-[0.5px] border-gray-400">

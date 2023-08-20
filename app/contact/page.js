@@ -17,7 +17,7 @@ const Contact = () => {
             <Image src={menuImage} alt="Logo Image" className="w-[140px]" />
           </div>
           <div className="text-gray-200 flex flex-row space-x-6 font-Montserrat items-center">
-            <a href="#" className="hover:text-gray-400 duration-150">
+            <a href="menu-tv" className="hover:text-gray-400 duration-150">
               Products
             </a>
             <a href="#" className="hover:text-gray-400 duration-150">
@@ -26,7 +26,7 @@ const Contact = () => {
             <a href="/blog" className="hover:text-gray-400 duration-150">
               Blog
             </a>
-            <a href="#" className="hover:text-gray-400 duration-150">
+            <a href="/help" className="hover:text-gray-400 duration-150">
               Help
             </a>
             <a href="/contact" className="hover:text-gray-400 duration-150">

@@ -18,7 +18,7 @@ const Card = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae fugiat
           placeat qui voluptates quia sapiente aspernatur.
         </h1>
-        <div className="mt-6">
+        <div className="mt-6 py-6">
           <a
             href="#"
             className="bg-[#5e9892] hover:bg-[#4a716d] duration-200 hover:shadow-lg px-4 md:px-6 py-2 md:py-3 font-Montserrat text-sm md:text-md text-gray-100 captialize tracking-wide"

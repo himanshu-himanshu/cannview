@@ -25,7 +25,7 @@ const Banner = () => {
           <a href="/blog" className="hover:text-gray-400 duration-150">
             Blog
           </a>
-          <a href="#" className="hover:text-gray-400 duration-150">
+          <a href="/help" className="hover:text-gray-400 duration-150">
             Help
           </a>
           <a href="/contact" className="hover:text-gray-400 duration-150">
