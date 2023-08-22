@@ -109,13 +109,13 @@ const Contact = () => {
                 Business Type
               </span>
               <div className="flex flex-row space-x-2 justify-start items-center">
-                <input type="radio" value="Regular" id="cr" />
+                <input type="radio" name="retailer" value="Regular" id="cr" />
                 <label htmlFor="cr" className="text-gray-900 font-Raleway px-1">
                   Cannabis Retailer
                 </label>
               </div>
               <div className="flex flex-row space-x-2 justify-start items-center">
-                <input type="radio" value="Medium" id="lp" />
+                <input type="radio" name="retailer" value="Medium" id="lp" />
                 <label htmlFor="lp" className="text-gray-900 font-Raleway px-1">
                   Licensed Producer
                 </label>
@@ -126,7 +126,7 @@ const Contact = () => {
                 Preferred Method of Communication
               </span>
               <div className="flex flex-row space-x-2 justify-start items-center">
-                <input type="radio" value="Regular" id="email" />
+                <input type="radio" name="communication" value="Regular" id="email" />
                 <label
                   htmlFor="email"
                   className="text-gray-900 font-Raleway px-1"
@@ -135,7 +135,7 @@ const Contact = () => {
                 </label>
               </div>
               <div className="flex flex-row space-x-2 justify-start items-center">
-                <input type="radio" value="Medium" id="text" />
+                <input type="radio" name="communication" value="Medium" id="text" />
                 <label
                   htmlFor="text"
                   className="text-gray-900 font-Raleway px-1"
@@ -144,7 +144,7 @@ const Contact = () => {
                 </label>
               </div>
               <div className="flex flex-row space-x-2 justify-start items-center">
-                <input type="radio" value="Medium" id="phone" />
+                <input type="radio" name="communication" value="Medium" id="phone" />
                 <label
                   htmlFor="phone"
                   className="text-gray-900 font-Raleway px-1"
