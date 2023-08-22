@@ -69,7 +69,7 @@ const Contact = () => {
                 </span>
                 <input
                   type="text"
-                  id="firstname"
+                  id="lastname"
                   className="px-2 py-3 rounded-sm outline-none focus:outline-none active:outline-none border-[1px] border-gray-300 focus:border-green-500"
                 />
               </div>
@@ -80,7 +80,7 @@ const Contact = () => {
               </span>
               <input
                 type="text"
-                id="company"
+                id="companyName"
                 className="px-2 py-3 rounded-sm outline-none focus:outline-none active:outline-none border-[1px] border-gray-300 focus:border-green-500"
               />
             </div>
@@ -144,9 +144,9 @@ const Contact = () => {
                 </label>
               </div>
               <div className="flex flex-row space-x-2 justify-start items-center">
-                <input type="radio" name="communication" value="Medium" id="phone" />
+                <input type="radio" name="communication" value="Medium" id="phoneRadio" />
                 <label
-                  htmlFor="phone"
+                  htmlFor="phoneRadio"
                   className="text-gray-900 font-Raleway px-1"
                 >
                   Phone
@@ -154,7 +154,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex flex-col space-y-2">
-              <span className="text-gray-900 font-Raleway px-1 font-bold text-xl ">
+              <span className="text-gray-900 font-Raleway px-1 font-bold text-xl">
                 Message
               </span>
               <textarea
